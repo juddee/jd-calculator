@@ -1,0 +1,72 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: powderblue;
+    }
+
+    .content{
+        width: 400px;
+        height: 500px;
+    }
+    .display{
+        width: 100%;
+        height: 30%;
+        font-weight: bolder;
+        margin-bottom: 5px;
+        color: #fff;
+        background-color:#000;
+        
+    }
+    .cac-output {
+        width: 100%;
+        height: 40%;
+        padding: 10px;
+        
+        
+    }
+    .cac-input{
+        width: 100%;
+        height: 60%;
+        padding: 10px;
+
+    }
+
+    .keypad{
+        width: 100%;
+        height: 70%;
+
+    }
+
+    .kb{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    }
+    .button{
+        width: 30%;
+        height: 50px;
+        font-weight: bolder;
+        font-size: larger;
+        border: none;
+        margin: 1.5px;
+        background-color: #fff;
+    }
+
+    .total{
+        
+        flex: 1;
+    }
+
+    .total{
+        background-color: tomato;
+    }
